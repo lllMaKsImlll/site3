@@ -12,21 +12,50 @@ body {
 .header {
     background-color: #003366;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 200px;
     color: #fff;
 }
 
-.header .logo img {
-    height: 100px;
-    width: 100px;
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.contacts {
+    float: right;
+    margin-right: 25px;
+}
+
+.contacts p {
+    font-size: 35px;
 }
 
 .hero {
     text-align: center;
     padding: 50px;
     background-color: #f5f5f5;
+    clear: both;
+}
+
+.pris {
+    height:inherit;
+    width: 59%;
+    display: inline-block;
+}
+
+.pris-img {
+    height: 100%;
+    width: 39%;
+    display: inline-block;
+}
+
+.pris-img img {
+    height: 250px;
+    width: 250px;
 }
 
 .order-btn {
@@ -40,22 +69,28 @@ body {
 }
 
 .promo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px;
     background-color: #eee;
+    text-align: center;
 }
 
-.promo img {
+.promo-img {
+    display: block;
+    margin: 0 auto;
     width: 300px;
     height: auto;
 }
 
 .timer {
-    font-size: 24px;
+    font-size: 34px;
     color: #ff0000;
     font-weight: bold;
+    margin-top: 20px;
+}
+
+.promo-text {
+    margin-top: 20px;
+    font-size: 16px;
 }
 
 .trust-info {
@@ -71,16 +106,17 @@ body {
 }
 
 .steps {
-    display: flex;
-    justify-content: space-around;
+    margin-top: 30px;
 }
 
 .step {
+    display: inline-block;
     background-color: #003366;
     color: #fff;
     padding: 20px;
     border-radius: 50%;
     font-size: 24px;
+    margin: 10px;
 }
 
 footer {
@@ -91,5 +127,11 @@ footer {
 }
 
 .footer-content {
-    margin-top: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+footer button {
+    display: inline-block;
 }
