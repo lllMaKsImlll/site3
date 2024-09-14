@@ -42,20 +42,43 @@ body {
 }
 
 .pris {
-    height:inherit;
-    width: 59%;
+    height:300px;
+    width: 49%;
     display: inline-block;
 }
 
 .pris-img {
-    height: 100%;
-    width: 39%;
+    height: 300px;
+    width: 50%;
     display: inline-block;
 }
 
-.pris-img img {
-    height: 250px;
-    width: 250px;
+.pris-box {
+    position: absolute;
+    height: 300px;
+    align-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pris-img-box {
+    position: absolute;
+    height: 300px;
+    align-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pris-box img {
+    height: 150px;
+    width: 150px;
+}
+
+.pris-img  img{
+    height: 300px;
+    width: 300px;
 }
 
 .order-btn {
