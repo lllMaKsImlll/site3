@@ -91,6 +91,17 @@ body {
     margin-top: 20px;
 }
 
+.order-btn:hover {
+    background-color: #bc1919;
+    transition: 200ms linear;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 16px; 
+}
+
 .promo {
     padding: 50px;
     background-color: #eee;
@@ -105,7 +116,7 @@ body {
 }
 
 .timer {
-    font-size: 34px;
+    font-size: 55px;
     color: #ff0000;
     font-weight: bold;
     margin-top: 20px;
@@ -140,6 +151,14 @@ body {
     border-radius: 50%;
     font-size: 24px;
     margin: 10px;
+}
+
+.steps img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;    
+    border-radius: 50%;
+    margin-left: 15px;
 }
 
 footer {
