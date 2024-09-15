@@ -177,3 +177,26 @@ footer {
 footer button {
     display: inline-block;
 }
+
+.button-box {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button-box p {
+    font-size: 35px;
+}
+
+.button-order {
+    padding: 50px;
+}
+
+footer img {
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+}
